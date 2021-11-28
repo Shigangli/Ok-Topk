@@ -1,4 +1,4 @@
-## Ok-Topk: Near-Optimal Sparse Allreduce for Distributed Deep Learning
+## Ok-Topk: Near-Optimal Sparse Allreduce for Distributed Deep Learning (accepted by PPoPP'22)
 
 ## Prepare Datasets
 
