@@ -5,8 +5,7 @@ ujson==4.0.2
 coloredlogs==15.0
 tqdm==4.54.1
 h5py==3.2.1
-mpi4py==3.0.3
 psutil
 torch==1.6.0
-torchaudio==0.6.0a0+f17ae39
+torchaudio==0.6.0
 torchvision==0.7.0
