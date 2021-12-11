@@ -9,3 +9,7 @@ psutil
 torch==1.6.0
 torchaudio==0.6.0
 torchvision==0.7.0
+numba==0.51.2
+librosa==0.8.1
+python-Levenshtein==0.12.2
+warpctc-pytorch==0.2.1+torch16.cuda102
