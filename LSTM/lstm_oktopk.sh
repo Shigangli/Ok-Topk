@@ -11,7 +11,6 @@
 
 
 module load daint-gpu
-module load cudatoolkit/10.2.89_3.28-2.1__g52c0314
 conda activate py38_oktopk
 which nvcc
 nvidia-smi
