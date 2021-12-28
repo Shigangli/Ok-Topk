@@ -1,6 +1,25 @@
 ## Near-Optimal Sparse Allreduce for Distributed Deep Learning (PPoPP'22)
 Ok-Topk is a scheme for distributed training with sparse gradients. Ok-Topk integrates a novel sparse allreduce algorithm (less than 6k communication volume which is asymptotically optimal) with the decentralized parallel Stochastic Gradient Descent (SGD) optimizer, and its convergence is proved theoretically and empirically.
 
+## Setup the environment
+To install the required Python modules: 
+
+`conda create --name py38_oktopk python=3.8`
+
+`conda activate py38_oktopk`
+
+`pip3 install pip==20.2.4`
+
+`pip install -r requirements.txt`
+
+`MPICC="cc -shared" pip install --no-binary=mpi4py mpi4py`
+
+`git clone https://github.com/NVIDIA/apex`
+
+`cd apex`
+
+`pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./`
+
 ## Prepare Datasets
 
 ### Cifar-10 for VGG
@@ -21,15 +40,6 @@ Ok-Topk is a scheme for distributed training with sparse gradients. Ok-Topk inte
 `cd ./BERT/bert/bert_data/`
 
 Prepare the dataset according to the README file.
-
-## Setup the environment
-To install the required Python modules: 
-
-`conda create --name py38_oktopk python=3.8`
-
-`conda activate py38_oktopk`
-
-`pip install -r requirements.txt`
 
 ## Run jobs
 We run experiments on GPU clusters with SLURM job scheduler.
