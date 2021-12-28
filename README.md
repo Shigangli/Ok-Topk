@@ -50,6 +50,10 @@ To evaluate the performance of `Ok-Topk`, `Gaussiank`, `gtopk`, `topkA`, `topkDS
 
 `./sbatch_bert_jobs.sh`
 
+## Publication
+
+The work of Ok-Topk is pulished in PPoPP'22. [DOI](https://doi.org/10.1145/3503221.3508399)
+
 ## License
 
 See [LICENSE](LICENSE).
