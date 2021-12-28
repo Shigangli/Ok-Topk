@@ -5,19 +5,14 @@ Ok-Topk is a scheme for distributed training with sparse gradients. Ok-Topk inte
 To install the required Python modules: 
 
 `conda create --name py38_oktopk python=3.8`
-
 `conda activate py38_oktopk`
-
 `pip3 install pip==20.2.4`
-
 `pip install -r requirements.txt`
 
 `MPICC="cc -shared" pip install --no-binary=mpi4py mpi4py`
 
 `git clone https://github.com/NVIDIA/apex`
-
 `cd apex`
-
 `pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./`
 
 ## Prepare Datasets
