@@ -6,7 +6,6 @@
 #SBATCH --constraint=gpu
 #SBATCH --partition=normal
 #SBATCH --time=01:30:00
-#SBATCH --account=g34
 #SBATCH --output=32nodes-lstm-topkDSA-density2.txt
 
 

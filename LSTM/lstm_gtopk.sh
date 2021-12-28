@@ -6,7 +6,6 @@
 #SBATCH --constraint=gpu
 #SBATCH --partition=normal
 #SBATCH --time=02:10:00
-#SBATCH --account=g34
 #SBATCH --output=32nodes-lstm-gtopk-density2.txt
 
 

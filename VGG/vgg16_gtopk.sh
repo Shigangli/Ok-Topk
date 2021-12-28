@@ -6,7 +6,6 @@
 #SBATCH --constraint=gpu
 #SBATCH --partition=normal
 #SBATCH --time=02:30:00
-#SBATCH --account=g34
 #SBATCH --output=16nodes_vgg_gtopk_density2.txt
 
 

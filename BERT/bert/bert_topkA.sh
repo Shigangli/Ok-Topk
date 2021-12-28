@@ -6,7 +6,6 @@
 #SBATCH --constraint=gpu
 #SBATCH --partition=normal
 #SBATCH --time=01:10:00
-#SBATCH --account=g34
 #SBATCH --output=32nodes_bert_topkA_density1.txt
 
 
