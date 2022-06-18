@@ -1,5 +1,5 @@
 ## Near-Optimal Sparse Allreduce for Distributed Deep Learning (published in PPoPP'22)
-Ok-Topk is a scheme for distributed training with sparse gradients. Ok-Topk integrates a novel sparse allreduce algorithm (less than 6k communication volume which is asymptotically optimal) with the decentralized parallel Stochastic Gradient Descent (SGD) optimizer, and its convergence is proved theoretically and empirically.
+Ok-Topk is a scheme for distributed training with sparse gradients. Ok-Topk integrates a novel sparse allreduce algorithm (less than 6k communication volume which is asymptotically optimal) with the decentralized parallel Stochastic Gradient Descent (SGD) optimizer, and its convergence is proved theoretically and empirically. All baselines, such as TopkDSA, gTopk, and Guassiank, are already integrated in the repo.
 
 ## Setup the environment
 To install the required Python modules: 
