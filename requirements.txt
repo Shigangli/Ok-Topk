@@ -1,7 +1,7 @@
 simplejson==3.17.2
 tensorboard==2.5.0
 tensorboardX==2.2
-ujson==4.0.2
+ujson==5.2.0
 coloredlogs==15.0
 tqdm==4.54.1
 h5py==3.2.1
